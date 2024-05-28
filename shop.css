@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo{
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+}
+
+nav{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 19px;
+    color: white;
+    
+}
+
+#login button input{
+    border: none;
+    /* display: inline-block; */
+    /* text-decoration: none; */
+    /* border-radius: 25px; */
+    padding: 7px 25px;
+}
+
+main{
+    padding: 10px 20px;
+    width: 100%;
+}
+
+#home .hero {
+    display: flex;
+}
+
+h2{
+    padding: 10px 0;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero{
+    margin: 4px 11px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#home .hero .product-box{
+    width: 150px;
+    height: 260px;
+    border: 1.5px solid gray;
+    border-radius: 5px;
+    margin: 5px 7px;
+    color: black;
+    padding: 5px 5px;
+    background-color: rgb(238, 238, 238);
+}
+
+#home .hero .product-box p{
+    padding: 2px 15px;
+}
+
+#home .hero .product-box .price{
+    color: rgb(0, 10, 156);
+    font: 900;
+}
+
+#home .hero .sm-box{
+    width: 220px;
+    height: 260px;
+    border: 1px solid rgb(185, 178, 178);
+    border-radius: 5px;
+    margin: 5px 7px;
+    color: black;
+    padding: 5px 5px;
+    background-color: rgb(238, 238, 238);
+}
+
+#home .hero .sm-box img{
+    width: 170px;
+    border-radius: 15px;
+    margin: auto;
+    display: block;
+    padding: 2px 0;
+}
+
+#home .hero .product-box img{
+    margin: auto;
+    width: 200px;
+    display: block;
+    border-radius: 10px;
+    padding: 2px 0;
+}
+
+#home .hero video{
+    margin: auto;
+    width: 115px;
+    display: block;
+    /* border-radius: 20px; */
+    padding: 2px 0;
+}
+
+#dealerships .deal{
+    display: flex;
+    
+}
+
+#dealerships .deal .box{
+    width: 220px;
+    height: 350px;
+    background-color: rgb(238, 238, 238);
+    /* border: 1.5px solid gray; */
+    margin: auto;
+    display: block;
+    
+}
+
+.deal img{
+    border-radius: 9px;
+    margin: auto;
+    width: 215px;
+    display: block;
+    padding: 4px 2px;
+}
+
+p, button{
+    padding: 2px 7px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.smartp{
+    color: rgb(20, 168, 20);
+    font: 900;
+    font-size: large;
+}
+
+button{
+    background-color: rgb(68, 136, 68);
+    color: white;
+    border: 1px solid green;
+    border-radius: 25px;
+}
+
+button:hover{
+    background-color: rgb(88, 172, 88);
+    cursor: pointer;
+}
+
+aside{
+    /* display: flex; */
+    width: 14%;
+    display: block;
+    float: left;
+}
+
+aside .side-bar{
+    padding: 10px 10px;
+    background-color: rgb(238, 238, 238);
+    border: 1.5px solid gray;
+    
+}
+
+aside .side-bar h4{
+    padding: 3px 2px;
+}
+
+aside .side-bar a{
+    color: black;
+    display: flex;
+    flex-shrink: inherit;
+    text-decoration: none;
+    padding: 2.5px 18px;
+}
+
+
+
+
+footer{
+    padding: 20px 40px;
+    background-color: gray;
+    margin-top: 20px;
+}
